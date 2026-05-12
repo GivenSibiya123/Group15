@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fun Facts & Superpowers — Mr. Edward van Niekerk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="fun-facts-section.css"/>
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+<canvas id="confetti"></canvas>
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<section class="section">
+
+  <p class="section-label fade-in">Fun Facts & Superpowers</p>
+  <h2 class="section-title fade-in">What makes him <span id="typed-word">extraordinary</span><span class="typing-cursor"></span></h2>
+  <p class="section-subtitle fade-in">Hover or tap each card to reveal the truth about Mr. van Niekerk.</p>
+
+  <!-- Animated stats -->
+  <div class="stats-bar fade-in">
+    <div class="stat"><div class="stat-number" data-target="10">0</div><div class="stat-label">Years Teaching</div></div>
+    <div class="stat"><div class="stat-number" data-target="500">0</div><div class="stat-label">Students Taught</div></div>
+    <div class="stat"><div class="stat-number" data-target="100">0</div><div class="stat-label">% Structured</div></div>
+    <div class="stat"><div class="stat-number" data-target="1">0</div><div class="stat-label">Superpower</div></div>
+  </div>
+
+  <div class="cards-grid">
+
+    <!-- SUPERPOWER HERO CARD -->
+    <div class="card card-hero fade-in" tabindex="0" role="button" aria-label="Superpower card">
+      <div>
+        <div class="card-accent"></div>
+        <span class="card-tag">⚡ Superpower</span>
+        <h3 class="card-title">The Lizard Instinct</h3>
+        <div class="card-reveal">
+          <p>Like the Lizard from Hopper, Mr. van Niekerk possesses lightning-fast perception and adaptability. His superpower is reading a room — and a student — with uncanny precision.</p>
+        </div>
+        <p class="card-hint">↗ hover to reveal</p>
+      </div>
+      <span class="card-emoji">🦎</span>
+    </div>
+
+    <!-- FUN FACT 1 -->
+    <div class="card fade-in" tabindex="0" role="button" aria-label="Fun fact: all in the eyes">
+      <div class="card-accent"></div>
+      <span class="card-emoji">👁️</span>
+      <span class="card-tag">🎯 Fun Fact</span>
+      <h3 class="card-title">He always knows.</h3>
+      <div class="card-reveal">
+        <p>Mr. van Niekerk can tell when a student is cheating — or simply lost — just by looking at them. It's all in the eyes. Don't try it.</p>
+      </div>
+      <p class="card-hint">↗ hover to reveal</p>
+    </div>
+
+    <!-- FUN FACT 2 -->
+    <div class="card fade-in" tabindex="0" role="button" aria-label="Fun fact: structure">
+      <div class="card-accent"></div>
+      <span class="card-emoji">📐</span>
+      <span class="card-tag">🏗️ Teaching Style</span>
+      <h3 class="card-title">Structure is everything.</h3>
+      <div class="card-reveal">
+        <p>His professional tagline says it all — "Very Structured." Every lecture, every explanation, every interaction is deliberate, ordered, and purposeful.</p>
+      </div>
+      <p class="card-hint">↗ hover to reveal</p>
+    </div>
+
+    <!-- FUN FACT 3 -->
+    <div class="card fade-in" tabindex="0" role="button" aria-label="Fun fact: teaching philosophy">
+      <div class="card-accent"></div>
+      <span class="card-emoji">🗣️</span>
+      <span class="card-tag">💡 Philosophy</span>
+      <h3 class="card-title">He teaches by asking.</h3>
+      <div class="card-reveal">
+        <p>Interactive. Engaging. Question-driven. Mr. van Niekerk believes real understanding only comes through dialogue — so expect to be called on.</p>
+      </div>
+      <p class="card-hint">↗ hover to reveal</p>
+    </div>
+
+    <!-- FUN FACT 4 -->
+    <div class="card fade-in" tabindex="0" role="button" aria-label="Fun fact: Shakespeare quote">
+      <div class="card-accent"></div>
+      <span class="card-emoji">📜</span>
+      <span class="card-tag">✍️ Words to Live By</span>
+      <h3 class="card-title">Shakespeare approved.</h3>
+      <div class="card-reveal">
+        <p>His favourite quote: "To thy own self be true." A reminder he carries into every classroom — be authentic, be honest, and own who you are.</p>
+      </div>
+      <p class="card-hint">↗ hover to reveal</p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Quote -->
+  <div class="bottom-quote fade-in">
+    <blockquote>"To thy own self be true."</blockquote>
+    <cite>— William Shakespeare, as quoted by Mr. Edward van Niekerk</cite>
+  </div>
+
+</section>
+
+<script src="fun-facts-section.js"></script>
+</body>
+</html>
