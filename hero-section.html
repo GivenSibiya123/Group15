@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mr. Edward van Niekerk | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+San… rel="stylesheet">
+<link rel="stylesheet" href="hero-section.css">
+</head>
+<body>
+
+ 
+
+  <!-- STARFIELD CANVAS -->
+<canvas id="starfield"></canvas>
+
+ 
+
+  <!-- NAV -->
+<nav>
+<div class="nav-logo">E. van Niekerk</div>
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#modules">Modules</a></li>
+<li><a href="#funfacts">Fun Facts</a></li>
+<li><a href="#quotes">Quotes</a></li>
+<li><a href="#connect">Connect</a></li>
+</ul>
+</nav>
+
+ 
+
+  <!-- ==================== HERO ==================== -->
+<section id="hero">
+<div class="hero-inner">
+
+ 
+
+      <!-- Text -->
+<div class="hero-text">
+<span class="hero-tag">Department Head · Business Science</span>
+<h1 class="hero-name">Mr. <em>Edward</em><br>van Niekerk</h1>
+<p class="hero-role">Pretoria Campus · Belgiums University</p>
+<p class="hero-tagline">
+          Very structured. Highly perceptive. An educator who believes interactive
+          engagement transforms how students think — not just what they learn.
+</p>
+<div class="hero-cta">
+<a href="#connect" class="btn-primary">Get in Touch</a>
+<a href="#about"   class="btn-ghost">Explore Profile</a>
+</div>
+</div>
+
+ 
+
+      <!-- Avatar -->
+<div class="hero-avatar">
+<div class="avatar-stage">
+<div class="avatar-ring ring1"></div>
+<div class="avatar-ring ring2"></div>
+<div class="avatar-glow"></div>
+
+ 
+
+          <!-- Animated Character: Gary-the-Snake-inspired white male lecturer -->
+<svg class="avatar-svg" viewBox="0 0 200 320" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="faceGrad" cx="50%" cy="40%" r="55%">
+<stop offset="0%"   stop-color="#f5e8d8"/>
+<stop offset="100%" stop-color="#e8d5be"/>
+</radialGradient>
+<radialGradient id="glassLens" cx="50%" cy="50%" r="50%">
+<stop offset="0%"   stop-color="rgba(61,214,140,0.12)"/>
+<stop offset="100%" stop-color="rgba(61,214,140,0.04)"/>
+</radialGradient>
+<radialGradient id="mintGlow" cx="50%" cy="50%" r="50%">
+<stop offset="0%"   stop-color="rgba(61,214,140,0.35)"/>
+<stop offset="100%" stop-color="transparent"/>
+</radialGradient>
+</defs>
+
+ 
+
+            <!-- Subtle body glow -->
+<ellipse cx="100" cy="220" rx="50" ry="60" fill="url(#mintGlow)" opacity="0.5"/>
+
+ 
+
+            <!-- Body / suit -->
+<rect x="60" y="185" width="80" height="100" rx="12" fill="#1a2b1e"/>
+<!-- Shirt -->
+<rect x="89" y="186" width="22" height="60" fill="#2a3d30"/>
+<!-- Tie -->
+<polygon points="100,194 95,230 100,236 105,230" fill="#3dd68c" opacity="0.85"/>
+
+ 
+
+            <!-- Neck -->
+<rect x="90" y="168" width="20" height="22" rx="4" fill="#f0ddc8"/>
+
+ 
+
+            <!-- Head -->
+<ellipse cx="100" cy="148" rx="42" ry="50" fill="url(#faceGrad)"/>
+
+ 
+
+            <!-- Hair (short, greying) -->
+<path d="M 60 135 Q 58 105 70 95 Q 82 84 100 82 Q 118 84 130 95 Q 142 105 140 135 Q 138 120 130 112 Q 118 100 100 98 Q 82 100 70 112 Q 62 120 60 135" fill="#c8c0b0"/>
+<path d="M 60 135 Q 62 155 65 165 Q 64 148 60 135" fill="#b8b0a0"/>
+<path d="M 140 135 Q 138 155 135 165 Q 136 148 140 135" fill="#b8b0a0"/>
+
+ 
+
+            <!-- Ears -->
+<ellipse cx="59"  cy="148" rx="8" ry="11" fill="#e8d5be"/>
+<ellipse cx="141" cy="148" rx="8" ry="11" fill="#e8d5be"/>
+
+ 
+
+            <!-- Glasses frame -->
+<rect x="71"  y="138" width="25" height="18" rx="5" fill="url(#glassLens)" stroke="#3dd68c" stroke-width="1.5"/>
+<rect x="104" y="138" width="25" height="18" rx="5" fill="url(#glassLens)" stroke="#3dd68c" stroke-width="1.5"/>
+<!-- Bridge -->
+<line x1="96" y1="147" x2="104" y2="147" stroke="#3dd68c" stroke-width="1.5"/>
+<!-- Temple arms -->
+<line x1="71"  y1="147" x2="60"  y2="145" stroke="#3dd68c" stroke-width="1.5"/>
+<line x1="129" y1="147" x2="140" y2="145" stroke="#3dd68c" stroke-width="1.5"/>
+
+ 
+
+            <!-- Eyes with blink animation -->
+<g style="animation: blinkEyes 4s 2s infinite;">
+<ellipse cx="83"  cy="147" rx="6" ry="6" fill="#2a3d30"/>
+<ellipse cx="117" cy="147" rx="6" ry="6" fill="#2a3d30"/>
+<circle cx="85"  cy="145" r="1.5" fill="white" opacity="0.8"/>
+<circle cx="119" cy="145" r="1.5" fill="white" opacity="0.8"/>
+</g>
+
+ 
+
+            <!-- Eyebrows -->
+<path d="M 76 136 Q 83 133 90 135"  stroke="#888" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+<path d="M 110 135 Q 117 133 124 136" stroke="#888" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+ 
+
+            <!-- Nose -->
+<path d="M 100 150 L 96 162 Q 100 165 104 162" stroke="#c8a88a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+
+ 
+
+            <!-- Subtle knowing smile -->
+<path d="M 90 172 Q 100 178 110 172" stroke="#b8806a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+ 
+
+            <!-- Collar / lapels -->
+<path d="M 90 186 L 78 200 L 100 192 L 122 200 L 110 186" fill="#243028"/>
+
+ 
+
+            <!-- Mint glow orbs — "structured aura" -->
+<circle cx="155" cy="100" r="4" fill="#3dd68c" opacity="0.6">
+<animate attributeName="opacity" values="0.6;1;0.6" dur="2s"   repeatCount="indefinite"/>
+<animate attributeName="r"       values="4;6;4"       dur="2s"   repeatCount="indefinite"/>
+</circle>
+<circle cx="45" cy="120" r="3" fill="#3dd68c" opacity="0.4">
+<animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
+</circle>
+</svg>
+</div>
+</div>
+</div>
+</section>
+
+ 
+
+  <!-- ==================== ABOUT ==================== -->
+<section id="about">
+<div class="section-wrap">
+<p class="section-label reveal">The Educator</p>
+<h2 class="section-title reveal">
+        About <em style="font-family:'Playfair Display',serif; font-style:italic; color:var(--mint);">Edward</em>
+</h2>
+
+ 
+
+      <div class="about-grid">
+<!-- Bio -->
+<div class="about-text reveal">
+<p>
+            Mr. Edward van Niekerk serves as the Department Head of Business Science at the Pretoria Campus.
+            With a career built on structure, clarity, and a genuine passion for student success, he has shaped
+            the academic journey of countless graduates in the business sciences.
+</p>
+<p>
+            His teaching philosophy centres on
+<strong style="color:var(--mint); font-weight:500;">interactive engagement</strong>
+            — a belief that questions asked and answered in the classroom are the most powerful learning tools
+            available. He is perceptive, methodical, and quietly observant in ways that consistently catch
+            students off guard.
+</p>
+<p>
+            Preferring his MacBook and Safari, he navigates the digital academic space with the same precision
+            he brings to his teaching: minimal, purposeful, nothing busy.
+</p>
+
+ 
+
+          <div class="stats-row">
+<div class="stat-card reveal">
+<span class="num">3</span>
+<span class="lbl">Modules Taught</span>
+</div>
+<div class="stat-card reveal">
+<span class="num">2</span>
+<span class="lbl">Qualifications</span>
+</div>
+<div class="stat-card reveal">
+<span class="num">∞</span>
+<span class="lbl">Students Inspired</span>
+</div>
+</div>
+</div>
+
+ 
+
+        <!-- Qualifications -->
+<div class="reveal">
+<p class="section-label" style="margin-bottom:1.2rem;">Qualifications</p>
+<ul class="qual-list">
+<li class="qual-item">
+<div class="qual-dot"></div>
+<div class="qual-info">
+<strong>Bachelor of Education</strong>
+<span>UNISA · Foundation in Educational Practice</span>
+</div>
+</li>
+<li class="qual-item">
+<div class="qual-dot"></div>
+<div class="qual-info">
+<strong>Honours in Computing Education</strong>
+<span>UNISA · Technology-Integrated Pedagogy</span>
+</div>
+</li>
+<li class="qual-item">
+<div class="qual-dot"></div>
+<div class="qual-info">
+<strong>Department Head</strong>
+<span>Business Science · Pretoria Campus</span>
+</div>
+</li>
+</ul>
+<div class="qual-item" style="margin-top:1.5rem; border-color:rgba(61,214,140,0.35); background:rgba(61,214,140,0.06);">
+<div class="qual-dot"></div>
+<div class="qual-info">
+<strong style="color:var(--mint);">Teaching Philosophy</strong>
+<span>Interactive · Engaging · Question-driven dialogue</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+ 
+
+  <!-- ==================== MODULES ==================== -->
+<section id="modules">
+<div class="section-wrap">
+<p class="section-label reveal">Curriculum</p>
+<h2 class="section-title reveal">
+        Modules <em style="font-family:'Playfair Display',serif; font-style:italic; color:var(--mint);">Taught</em>
+</h2>
+
+ 
+
+      <div class="modules-grid">
+<div class="module-card reveal">
+<p class="module-code">WPR161</p>
+<h3 class="module-name">Word Processing</h3>
+<p class="module-desc">
+            Foundational digital literacy in professional document creation. Students master structured
+            formatting, production workflows, and the communication standards expected in modern business
+            environments.
+</p>
+</div>
+<div class="module-card reveal">
+<p class="module-code">ACW181</p>
+<h3 class="module-name">Academic Writing</h3>
+<p class="module-desc">
+            A deep dive into the art of clear, rigorous academic expression. From argumentative structure to
+            proper citation — students learn to communicate with precision and intellectual integrity.
+</p>
+</div>
+<div class="module-card reveal">
+<p class="module-code">ETH271</p>
+<h3 class="module-name">Ethics</h3>
+<p class="module-desc">
+            Exploring the moral frameworks that underpin business decisions and professional conduct. Students
+            examine real-world dilemmas through structured ethical reasoning and reflective discussion.
+</p>
+</div>
+</div>
+</div>
+</section>
+
+ 
+
+  <!-- ==================== FUN FACTS ==================== -->
+<section id="funfacts">
+<div class="section-wrap">
+<p class="section-label reveal">A Closer Look</p>
+<h2 class="section-title reveal">
+        Fun Facts &amp;
+<em style="font-family:'Playfair Display',serif; font-style:italic; color:var(--mint);">Superpowers</em>
+</h2>
+
+ 
+
+      <div class="facts-grid">
+<div class="fact-card reveal">
+<div class="fact-icon">👁️</div>
+<p class="fact-title">Eyes of a Hawk</p>
+<p class="fact-body">
+            Mr. van Niekerk has an uncanny ability to know when a student is cheating — and more impressively,
+            when a student doesn't understand something. It's all in the eyes. No words needed.
+</p>
+</div>
+<div class="fact-card reveal">
+<div class="fact-icon">🎨</div>
+<p class="fact-title">Design Preferences</p>
+<p class="fact-body">
+            Phthalo green paired with black, white, or orange accents. Clean, deliberate, never busy. He
+            dislikes overwhelming visual noise — everything has a place and purpose, just like his teaching.
+</p>
+</div>
+<div class="fact-card reveal">
+<div class="fact-icon">🍎</div>
+<p class="fact-title">Tech of Choice</p>
+<p class="fact-body">
+            A MacBook and Safari user through and through. Not one for unnecessary complexity, he keeps his
+            digital workspace as structured and intentional as his classroom.
+</p>
+</div>
+<div class="fact-card reveal">
+<div class="fact-icon">🐍</div>
+<p class="fact-title">Spirit Animal</p>
+<p class="fact-body">
+            Identifies with Gary the Snake from Zootopia — cool, perceptive, slightly reserved, and flexible
+            when the moment calls for it. Not overly fun, but always watching.
+</p>
+</div>
+
+ 
+
+        <!-- Superpower Card -->
+<div class="superpower-card reveal">
+<div class="lizard-wrap">
+<!-- Animated Lizard SVG -->
+<svg viewBox="0 0 130 130" width="110" height="110" xmlns="http://www.w3.org/2000/svg" class="lizard-anim">
+<defs>
+<radialGradient id="liz" cx="50%" cy="40%" r="60%">
+<stop offset="0%"   stop-color="#3dd68c"/>
+<stop offset="100%" stop-color="#1a6b3c"/>
+</radialGradient>
+</defs>
+<!-- Tail -->
+<path d="M 65 95 Q 30 110 15 120 Q 10 125 18 122 Q 35 115 60 100" fill="none" stroke="url(#liz)" stroke-width="7" stroke-linecap="round">
+<animateTransform attributeName="transform" type="rotate"
+                  from="-5 65 95" to="5 65 95" dur="1.5s" repeatCount="indefinite"
+                  additive="sum" calcMode="spline"
+                  keySplines="0.4 0 0.6 1;0.4 0 0.6 1" keyTimes="0;0.5;1" values="-5;5;-5"/>
+</path>
+<!-- Body -->
+<ellipse cx="65" cy="82" rx="22" ry="30" fill="url(#liz)"/>
+<!-- Belly -->
+<ellipse cx="65" cy="85" rx="14" ry="22" fill="#a8f5d0" opacity="0.4"/>
+<!-- Head -->
+<ellipse cx="65" cy="48" rx="20" ry="22" fill="url(#liz)"/>
+<!-- Eyes -->
+<circle cx="56" cy="44" r="5" fill="#0a0f0a"/>
+<circle cx="57.5" cy="42.5" r="1.5" fill="white"/>
+<circle cx="74" cy="44" r="5" fill="#0a0f0a"/>
+<circle cx="75.5" cy="42.5" r="1.5" fill="white"/>
+<!-- Tongue flick -->
+<g>
+<line x1="65" y1="60" x2="56" y2="68" stroke="#ff6b8a" stroke-width="1.5" stroke-linecap="round" opacity="0">
+<animate attributeName="opacity" values="0;0;1;0;0" dur="3s" repeatCount="indefinite"/>
+</line>
+<line x1="65" y1="60" x2="74" y2="68" stroke="#ff6b8a" stroke-width="1.5" stroke-linecap="round" opacity="0">
+<animate attributeName="opacity" values="0;0;1;0;0" dur="3s" repeatCount="indefinite"/>
+</line>
+</g>
+<!-- Legs -->
+<line x1="48" y1="75" x2="30"  y2="90"  stroke="url(#liz)" stroke-width="5" stroke-linecap="round"/>
+<line x1="82" y1="75" x2="100" y2="90"  stroke="url(#liz)" stroke-width="5" stroke-linecap="round"/>
+<line x1="48" y1="95" x2="32"  y2="112" stroke="url(#liz)" stroke-width="5" stroke-linecap="round"/>
+<line x1="82" y1="95" x2="98"  y2="112" stroke="url(#liz)" stroke-width="5" stroke-linecap="round"/>
+<!-- Claws -->
+<line x1="30"  y1="90" x2="24"  y2="95" stroke="#3dd68c" stroke-width="2" stroke-linecap="round"/>
+<line x1="30"  y1="90" x2="29"  y2="96" stroke="#3dd68c" stroke-width="2" stroke-linecap="round"/>
+<line x1="100" y1="90" x2="106" y2="95" stroke="#3dd68c" stroke-width="2" stroke-linecap="round"/>
+<!-- Dorsal spines -->
+<path d="M 65 28 L 62 18 L 65 12 L 68 18 Z" fill="#3dd68c" opacity="0.7"/>
+<path d="M 65 48 L 62 38 L 65 30 L 68 38 Z" fill="#3dd68c" opacity="0.5"/>
+<!-- Eye glow rings -->
+<circle cx="56" cy="44" r="5" fill="none" stroke="#3dd68c" stroke-width="0.5" opacity="0.6">
+<animate attributeName="r"       values="5;6;5"       dur="2s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.6;1;0.6"   dur="2s" repeatCount="indefinite"/>
+</circle>
+</svg>
+</div>
+<div class="superpower-text">
+<h3>The Lizard Superpower</h3>
+<p>
+              Inspired by the Lizard from the Hopper Movie, Mr. van Niekerk's academic superpower is his
+              extraordinary situational awareness. He reads the room with reptilian precision — sensing
+              confusion before it surfaces, detecting dishonesty before it's acted upon, and adapting his
+              approach with calm, deliberate flexibility.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+ 
+
+  <!-- ==================== QUOTES ==================== -->
+<section id="quotes">
+<div class="section-wrap">
+<p class="section-label reveal">Wisdom</p>
+<h2 class="section-title reveal">
+        Quote <em style="font-family:'Playfair Display',serif; font-style:italic; color:var(--mint);">Wall</em>
+</h2>
+
+ 
+
+      <div class="quote-carousel reveal">
+<div class="quote-slide active">
+<div class="quote-mark">"</div>
+<p class="quote-text">
+            To thine own self be true, and it must follow, as the night the day, thou canst not then be false
+            to any man.
+</p>
+<p class="quote-attr">— William Shakespeare · Mr. van Niekerk's Favourite</p>
+</div>
+<div class="quote-slide">
+<div class="quote-mark">"</div>
+<p class="quote-text">
+            The eyes don't lie. A student who understands looks different from one who doesn't — and I can
+            always tell.
+</p>
+<p class="quote-attr">— Mr. Edward van Niekerk</p>
+</div>
+<div class="quote-slide">
+<div class="quote-mark">"</div>
+<p class="quote-text">
+            Structure is not a cage. It is the framework within which great thinking becomes possible.
+</p>
+<p class="quote-attr">— Mr. Edward van Niekerk · Teaching Philosophy</p>
+</div>
+<div class="quote-slide">
+<div class="quote-mark">"</div>
+<p class="quote-text">
+            Interactive learning is not a technique. It is a commitment to treating students as thinkers, not
+            just receivers.
+</p>
+<p class="quote-attr">— Mr. Edward van Niekerk</p>
+</div>
+</div>
+
+ 
+
+      <div class="quote-dots reveal" id="dots">
+<div class="dot active" onclick="goSlide(0)"></div>
+<div class="dot"        onclick="goSlide(1)"></div>
+<div class="dot"        onclick="goSlide(2)"></div>
+<div class="dot"        onclick="goSlide(3)"></div>
+</div>
+</div>
+</section>
+
+ 
+
+  <!-- ==================== CONNECT ==================== -->
+<section id="connect">
+<div class="section-wrap">
+<p class="section-label reveal">Reach Out</p>
+<h2 class="section-title reveal">
+        Get in <em style="font-family:'Playfair Display',serif; font-style:italic; color:var(--mint);">Touch</em>
+</h2>
+
+ 
+
+      <div class="connect-grid">
+<!-- Contact info -->
+<div class="reveal">
+<p class="connect-info" style="color:rgba(244,248,245,0.7); font-size:1rem; line-height:1.85; margin-bottom:2rem;">
+            Whether you're a student with a query, a colleague seeking collaboration, or a professional
+            interested in the Business Science department — Mr. van Niekerk values clear, direct communication.
+</p>
+<div class="contact-items">
+<div class="contact-item">
+<div class="contact-item-icon">🏛️</div>
+<div class="contact-item-text">
+<strong>Department</strong>
+<span>Business Science · Pretoria Campus</span>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-item-icon">🎓</div>
+<div class="contact-item-text">
+<strong>Role</strong>
+<span>Department Head</span>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-item-icon">💻</div>
+<div class="contact-item-text">
+<strong>Preferred Platform</strong>
+<span>MacBook · Safari</span>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-item-icon">📚</div>
+<div class="contact-item-text">
+<strong>Modules</strong>
+<span>WPR161 · ACW181 · ETH271</span>
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+        <!-- Contact form -->
+<div class="reveal">
+<div class="contact-form" id="contactForm">
+<div class="form-group">
+<label>Your Name</label>
+<input type="text"  placeholder="e.g. Given Sibiya"  id="fname"/>
+</div>
+<div class="form-group">
+<label>Email Address</label>
+<input type="email" placeholder="your@email.com"     id="femail"/>
+</div>
+<div class="form-group">
+<label>Message</label>
+<textarea placeholder="Write your message here..."   id="fmsg"></textarea>
+</div>
+<button class="btn-primary" onclick="submitForm()"
+              style="width:100%; margin-top:0.5rem; font-size:0.85rem; padding:0.9rem;">
+              Send Message →
+</button>
+<div id="formMsg" style="display:none; font-size:0.85rem; color:var(--mint); text-align:center; padding:0.5rem;">
+              ✓ Thank you — your message has been received.
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+ 
+
+  <!-- ==================== FOOTER ==================== -->
+<footer>
+<div class="footer-text">© 2026 · INL261 Group 15 Portfolio Project · Belgiums University</div>
+<div class="footer-brand">E. van Niekerk</div>
+</footer>
+
+ 
+
+  <script src="hero-section.js"></script>
+</body>
+</html>
